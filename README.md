@@ -2,6 +2,8 @@
 
 A simple movies list website built using HTML, CSS, JavaScript, and React.
 
+![Visit Page](https://iamajlobo.github.io/lobo-react-movies/)
+
 ## Features
 - View a list of movies
 - Add and remove favorites
