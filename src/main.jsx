@@ -6,7 +6,7 @@ import './styles/App.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/lobo-react-movies">
       <App />
     </BrowserRouter>
   </StrictMode>,
