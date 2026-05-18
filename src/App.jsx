@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import Favorites from "./Favorites";
-import NavBar from "./NavBar.jsx";
-import { getFavorites, saveFavorites } from "../services/favorites.js";
+import Home from "./components/Home.jsx";
+import Favorites from "./components/Favorites.jsx";
+import NavBar from "./components/NavBar.jsx";
+import { getFavorites, saveFavorites } from "./services/favorites.js";
 
 export default function App() {
   const [searchKey, setSearchKey] = useState("");
